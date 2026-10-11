@@ -13,7 +13,7 @@
   "paths": {
     "/auth/register": {
       "post": {
-        "summary": "Auth - Register",
+        "summary": "T01 - Auth - Register",
         "responses": {},
         "requestBody": {
           "content": {
@@ -50,7 +50,7 @@
     },
     "/auth/login": {
       "post": {
-        "summary": "Auth - Login",
+        "summary": "T02 - Auth - Login",
         "responses": {},
         "requestBody": {
           "content": {
@@ -79,7 +79,7 @@
     },
     "/perfil": {
       "get": {
-        "summary": "Perfil",
+        "summary": "T03 - Perfil",
         "responses": {},
         "security": [
           {
@@ -90,7 +90,7 @@
     },
     "/produtos": {
       "post": {
-        "summary": "Produtos - Criar",
+        "summary": "T04 - Produtos - Criar",
         "responses": {},
         "requestBody": {
           "content": {
@@ -119,13 +119,13 @@
         }
       },
       "get": {
-        "summary": "Produtos - Listar",
+        "summary": "T05 - Produtos - Listar",
         "responses": {}
       }
     },
     "/estoque/entrada": {
       "post": {
-        "summary": "Estoque - Entrada",
+        "summary": "T06- Estoque - Entrada",
         "responses": {},
         "requestBody": {
           "content": {
@@ -156,7 +156,7 @@
     },
     "/estoque/saida": {
       "post": {
-        "summary": "Estoque - Saída",
+        "summary": "T07 - Estoque - Saída",
         "responses": {},
         "requestBody": {
           "content": {
@@ -187,7 +187,7 @@
     },
     "/pedidos": {
       "post": {
-        "summary": "Pedido - Criar",
+        "summary": "T08 - Pedido - Criar",
         "responses": {},
         "requestBody": {
           "content": {
@@ -220,19 +220,19 @@
         }
       },
       "get": {
-        "summary": "Pedido - Listar",
+        "summary": "T09 - Pedido - Listar",
         "responses": {}
       }
     },
     "/pedidos/1": {
       "get": {
-        "summary": "Pedido - Buscar",
+        "summary": "T10 - Pedido - Buscar",
         "responses": {}
       }
     },
     "/pedidos/1/status": {
       "patch": {
-        "summary": "Pedido - Alterar Status",
+        "summary": "T11 - Pedido - Alterar Status",
         "responses": {},
         "requestBody": {
           "content": {
@@ -255,7 +255,7 @@
     },
     "/pagamentos": {
       "post": {
-        "summary": "Pagamento - Processar",
+        "summary": "T12 - Pagamento - Processar",
         "responses": {},
         "requestBody": {
           "content": {
@@ -286,13 +286,13 @@
     },
     "/fidelidade/1": {
       "get": {
-        "summary": "Fidelidade - Consultar",
+        "summary": "T13 - Fidelidade - Consultar",
         "responses": {}
       }
     },
     "/fidelidade/acumular": {
       "post": {
-        "summary": "Fidelidade - Acumular",
+        "summary": "T14 - Fidelidade - Acumular",
         "responses": {},
         "requestBody": {
           "content": {
@@ -319,7 +319,7 @@
     },
     "/fidelidade/resgatar": {
       "post": {
-        "summary": "Fidelidade - Resgatar",
+        "summary": "T15 - Fidelidade - Resgatar",
         "responses": {},
         "requestBody": {
           "content": {

@@ -3,6 +3,12 @@ workspace:
 localResources:
   specs:
     - ../postman/specs/RaizesNordeste.postman_collection/RaizesNordeste.postman_collection.json
+    - ../postman/specs/RaizesNordeste.postman_collection-1/RaizesNordeste.postman_collection-1.json
+    - ../postman/specs/RaizesNordeste.postman_collection-1/RaizesNordeste.postman_collection-1.yaml
+    - ../postman/specs/RaizesNordeste.postman_collection-2/RaizesNordeste.postman_collection-2.json
 resourceNameMappings:
   specs:
     - ../postman/specs/RaizesNordeste.postman_collection/RaizesNordeste.postman_collection.json: RaizesNordeste.postman_collection
+    - ../postman/specs/RaizesNordeste.postman_collection-1/RaizesNordeste.postman_collection-1.json: RaizesNordeste.postman_collection
+    - ../postman/specs/RaizesNordeste.postman_collection-1/RaizesNordeste.postman_collection-1.yaml: RaizesNordeste.postman_collection
+    - ../postman/specs/RaizesNordeste.postman_collection-2/RaizesNordeste.postman_collection-2.json: RaizesNordeste.postman_collection
